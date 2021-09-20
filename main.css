@@ -21,3 +21,67 @@ h5,
 h6 {
   font-family: "Volkhov", serif;
 }
+.card-btn{
+    width: 130px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    background-color: rebeccapurple;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all ease-in-out 1.2s;
+  }
+  .card-btn:hover{
+    background-color:orangered; 
+  }
+
+  .head-bg{
+    background-color: #FFFBF0;
+    height: auto;
+  }
+.intro-text h1{
+    color: tomato;
+    font-size: 50px;
+    font-weight: 600;
+}
+.intro-text p {
+    color: dimgray;
+}
+.intro-color-text{
+    color: #363958;
+    font-size: 50px;
+}
+.card-img{
+ border: 1px solid lightgrey;
+}
+.card-title{
+  color: #363958;
+}
+.card-price{
+  font-size: 30px;
+  font-weight: 700;
+  color: orangered;
+}
+.intro-btn{
+  width: 140px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  background-color: rebeccapurple;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.intro-btn:hover{
+  background-color:orangered; 
+}
+.section-title{
+  color: #363958;
+  font-weight: 600;
+}
