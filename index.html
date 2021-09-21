@@ -25,7 +25,7 @@
             <!-- Start Navbar Section -->
             <nav class="navbar navbar-expand-lg navbar-light pb-5">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#" target="_black">
                         <img src="images/logo/Logo.png" alt="" width="210" height="40"
                             class="d-inline-block align-text-top">
 
@@ -37,16 +37,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto fw-bold text-center">
                             <li class="nav-item px-3">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#" target="_black">Home</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link" href="#">Product</a>
+                                <a class="nav-link" href="#" target="_black">Product</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link" href="#" target="_black">About us</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link" href="#">Contact us</a>
+                                <a class="nav-link" href="#" target="_black">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -264,47 +264,130 @@
     <section class="container pt-5">
         <main class="service-section d-flex align-content-center justify-content-around pt-5">
 
+            <!-- Service Outlines -->
             <div class="service-outline w-75">
                 <div class="single-outline d-flex align-content-center justify-content-around  rounded-3 shadow-sm">
-                    <div>
-                        <img class="w-50" src="images/Icon/image 1.png" alt="">
+                    <div class="outline-img">
+                        <img class="w-50" src="images/Icon/image 1.png" alt="outline-icon1">
                     </div>
-                    <div>
+                    <div class="outline-text">
                         <h5>Find The Perfect Fit</h5>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </span>
                     </div>
                 </div>
 
                 <div class="single-outline d-flex align-content-center justify-content-around mt-4 rounded-3 shadow-sm">
-                    <div>
-                        <img class="w-50"src="images/Icon/image 2.png" alt="">
+                    <div class="outline-img">
+                        <img class="w-50" src="images/Icon/image 2.png" alt="outline-icon2">
                     </div>
-                    <div>
+                    <div class="outline-text">
                         <h5>Free Exchanges</h5>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </span>
                     </div>
                 </div>
 
-                <div class="single-outline d-flex align-content-center justify-content-around mt-4 rounded-3  shadow-sm">
-                    <div>
-                        <img class="w-50" src="images/Icon/image 3.png" alt="">
+                <div
+                    class="single-outline d-flex align-content-center justify-content-around mt-4 rounded-3  shadow-sm">
+                    <div class="outline-img">
+                        <img class="w-50" src="images/Icon/image 3.png" alt="outline-icon3">
                     </div>
-                    <div>
+                    <div class="outline-text">
                         <h5>Contact Our Seller</h5>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </span>
                     </div>
                 </div>
             </div>
 
+            <!-- XMLID Image -->
             <div class="shopping-pic text-center">
                 <img class="w-75  img-fluid" src="images/Icon/XMLID 1.png" alt="XMLID">
             </div>
         </main>
     </section>
     <!-- End Service Section -->
+
+    <!-- Start Connected Section -->
+    <section class="mt-5 pt-3 pb-5 bg-light h-auto">
+        <main class="container  d-flex align-content-center justify-content-between">
+            <div class="">
+                <p class="connect-header">FOLLOW US</p>
+
+                <div>
+                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                        <i class="fab fa-facebook follow"></i>
+                    </a>
+                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                        <i class="fab fa-twitter follow "></i>
+                    </a>
+                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                        <i class="fab fa-linkedin follow"></i>
+                    </a>
+                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                        <i class="fab fa-google-plus-square follow"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div>
+                <p class="connect-header"> CONTACT US</p>
+
+                <div class="text-start">
+                    <a class="d-block text-decoration-none text-dark" href="#" target="_blank" >
+                        <i class="fas fa-envelope-open-text contacts-icon me-2 text-success fs-5">
+                        </i>
+                        info@panguinfashion.com
+                    </a>
+
+                    <a class="d-block pt-2 text-decoration-none text-dark" href="#" target="_blank" >
+                        <i class="fas fa-phone-volume contacts-icon me-2 text-success fs-5">
+                        </i>
+                        +800 768 324
+                    </a>
+
+                    <a class="d-block pt-2 text-decoration-none text-dark" href="#" target="_blank" ">
+                        <i class="fas fa-mobile contacts-icon me-2 text-success fs-5">
+                        </i>
+                        +08801718160232
+                    </a>
+                </div>
+            </div>
+
+            <div class="">
+                <p class="connect-header"> SING TO NEWSLETTER</p>
+                <form action="x" class="p-1">
+                    <input class=" bg-light shadow-sm form-control" type="text" placeholder="Name" name="" id="name">
+
+                    <input class=" d-block mt-2 bg-light shadow-sm form-control" type="email" placeholder="Email"
+                        name="" id="email">
+
+                    <div class="text-end mt-2">
+                        <input class="subscribe-btn" type="submit" value="SUBSCRIBE">
+                    </div>
+                </form>
+
+            </div>
+        </main>
+    </section>
+    <!-- End Connected Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="container pt-4 pb-3 text-center ">
+        <p class="footer-text"> All Designed Build by
+            <a class="text-decoration-none " href="#" target="_blank">
+                <i>
+                    <span class="footer-color">
+                        <i class="fas fa-code-branch ps-2 fs-5"></i>
+                        Mohammad Shakil
+                        Ahmed
+                    </span>
+                </i>
+            </a>
+        </p>
+    </footer>
+    <!-- End Footer Section -->
 
 
     <!-- bootstrap-js-bundle -->

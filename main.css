@@ -1,6 +1,7 @@
 
-/* Font */
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Volkhov:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
 
 *{
     padding: 0;
@@ -84,4 +85,56 @@ h6 {
 .section-title{
   color: #363958;
   font-weight: 600;
+}
+.outline-text h5{
+  color: #363958;
+}
+.outline-text span{
+  color: dimgray;
+  font-size: 14px;
+}
+.follow-icons{
+  color: orangered;
+  font-size: 28px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: transform(all ease-in-out 1s);
+}
+.follow-icons :hover{
+  color: rgb(11, 141, 102);
+  transform: scale(1.5);
+}
+.connect-header{
+  color: #363958;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Roboto+Mono" ;
+}
+.subscribe-btn{
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  color: white;
+  background-color: rgb(18, 164, 201);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.subscribe-btn:hover{
+  background-color:rgb(8, 167, 29); 
+}
+
+.footer-text{
+  color: #363958;
+}
+.footer-color{
+  color: rgb(8, 138, 170);
+  transition: all ease-in-out 1.2s;
+  font-weight: 600;
+}
+.footer-color:hover{
+  color: green;
 }
