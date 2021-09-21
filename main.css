@@ -14,6 +14,8 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
+
+/* Global */
 h1,
 h2,
 h3,
@@ -22,49 +24,29 @@ h5,
 h6 {
   font-family: "Volkhov", serif;
 }
-.card-btn{
-    width: 130px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    color: white;
-    background-color: rebeccapurple;
-    font-weight: 500;
-    font-size: 12px;
-    padding: 12px;
-    cursor: pointer;
-    transition: all ease-in-out 1.2s;
-  }
-  .card-btn:hover{
-    background-color:orangered; 
-  }
+.buy-icon{
+  font-size: 15px;
+  padding-right: 3px;
+}
 
-  .head-bg{
-    background-color: #FFFBF0;
-    height: auto;
-  }
+/* Header Section */
+.head-bg{
+  background-color: #FFFBF0;
+ 
+}
+
+/* Intro Section */
 .intro-text h1{
-    color: tomato;
-    font-size: 50px;
-    font-weight: 600;
+  color: tomato;
+  font-size: 50px;
+  font-weight: 600;
 }
 .intro-text p {
-    color: dimgray;
+  color: dimgray;
 }
 .intro-color-text{
-    color: #363958;
-    font-size: 50px;
-}
-.card-img{
- border: 1px solid lightgrey;
-}
-.card-title{
   color: #363958;
-}
-.card-price{
-  font-size: 30px;
-  font-weight: 700;
-  color: orangered;
+  font-size: 50px;
 }
 .intro-btn{
   width: 140px;
@@ -82,16 +64,59 @@ h6 {
 .intro-btn:hover{
   background-color:orangered; 
 }
-.section-title{
+
+/* Card Section */
+.card-section-title{
   color: #363958;
   font-weight: 600;
 }
+.card-img{
+  border: 1px solid lightgrey;
+}
+.card-title{
+  color: #363958;
+}
+.card-price{
+  font-size: 30px;
+  font-weight: 700;
+  color: orangered;
+}
+.card-btn{
+  width: 130px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  background-color: rebeccapurple;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.card-btn:hover{
+  background-color:orangered; 
+}
+
+/* Service Sectione */
 .outline-text h5{
   color: #363958;
 }
 .outline-text span{
   color: dimgray;
   font-size: 14px;
+}
+
+/* Connect Section */
+.connect-bg{
+  background-color: #363958;;
+}
+.connect-header::after{
+  content: "";
+  background-color: lightgrey;
+  width: 200px;
+  height: 1px;
+  display: block;
 }
 .follow-icons{
   color: orangered;
@@ -105,10 +130,13 @@ h6 {
   transform: scale(1.5);
 }
 .connect-header{
-  color: #363958;
+  color: white;
   font-weight: 300;
   font-size: 18px;
   font-family: "Roboto+Mono" ;
+}
+.contact-icon{
+  color: rgb(11, 139, 161);
 }
 .subscribe-btn{
   width: 100px;
@@ -126,7 +154,8 @@ h6 {
 .subscribe-btn:hover{
   background-color:rgb(8, 167, 29); 
 }
-
+ 
+/* Footer Section */
 .footer-text{
   color: #363958;
 }
@@ -138,3 +167,5 @@ h6 {
 .footer-color:hover{
   color: green;
 }
+
+

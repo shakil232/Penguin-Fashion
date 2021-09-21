@@ -15,80 +15,85 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
 </head>
 
 <body>
 
     <!-- Start Header Section -->
-    <header class="head-bg">
-        <main class="container pb-5">
-            <!-- Start Navbar Section -->
-            <nav class="navbar navbar-expand-lg navbar-light pb-5">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#" target="_black">
-                        <img src="images/logo/Logo.png" alt="" width="210" height="40"
-                            class="d-inline-block align-text-top">
+    <header class="head-bg h-auto">
 
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+        <!-- Start Navbar Section -->
+        <nav class="navbar navbar-expand-lg navbar-light pb-5 container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" target="_black">
+                    <img src="images/logo/Logo.png" alt="" width="210" height="40"
+                        class="d-inline-block align-text-top">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-bold text-center">
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#product" >Product</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#about" >About us</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                      
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar Section -->
+
+        <!-- Start Hero Section -->
+        <section id="home" class="container pb-5">
+            <div class="row gx-5 text-center">
+                <div class="intro-pic col-md-6 col-sm-12 ">
+                    <img class="img-fluid " src="images/logo/intro-img.png" alt="intro-shoe">
+                </div>
+
+                <div class="intro-text pt-5 mt-5 ps-5 text-start col-md-6 col-sm-12">
+                    <h1>NIKE REACT <br>
+                        <span class="intro-color-text">INFINITY RUN 2</span>
+                    </h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, <br> cumque praesentium!
+                        Impedit
+                        dolores repellendus distinctio?.</P>
+
+                    <button class="intro-btn">
+                        <i class="fas fa-cart-plus buy-icon"></i>
+                        BUY NOW
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto fw-bold text-center">
-                            <li class="nav-item px-3">
-                                <a class="nav-link active" aria-current="page" href="#" target="_black">Home</a>
-                            </li>
-                            <li class="nav-item px-3">
-                                <a class="nav-link" href="#" target="_black">Product</a>
-                            </li>
-                            <li class="nav-item px-3">
-                                <a class="nav-link" href="#" target="_black">About us</a>
-                            </li>
-                            <li class="nav-item px-3">
-                                <a class="nav-link" href="#" target="_black">Contact us</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
-            </nav>
-            <!-- End Navbar Section -->
+            </div>
+        </section>
+        <!-- End Hero Section -->
 
-            <!-- Start Hero Section -->
-            <section>
-                <div class="d-flex align-content-center justify-content-between flex-wrap text-center">
-
-                    <div class="intro-pic w-50 ">
-                        <img class="w-75 h-auto img-fluid " src="images/logo/intro-img.png" alt="intro-shoe">
-                    </div>
-
-                    <div class="intro-text pt-5 mt-5 lh-md text-start ">
-                        <h1>NIKE REACT <br>
-                            <span class="intro-color-text">INFINITY RUN 2</span>
-                        </h1>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, <br> cumque praesentium!
-                            Impedit
-                            dolores repellendus distinctio?.</P>
-
-                        <button class="intro-btn">BUY NOW</button>
-                    </div>
-                </div>
-            </section>
-            <!-- End Hero Section -->
-        </main>
     </header>
     <!-- End Header Section -->
 
     <!-- Start Product Section -->
-    <main class="container pt-5 ">
+    <main id="product" class="container pt-5 ">
         <section class="casual-section">
-            <h1 class="pb-4 pt-5 section-title">CASUAL SHOES</h1>
+            <h1 class="pb-4 pt-5 card-section-title">CASUAL SHOES</h1>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3  g-4">
 
                 <div class="col ">
-                    <div class="card  h-auto border-0 shadow">
+                    <div class="card h-auto border-0 shadow">
                         <div class="bg-light rounded-3 m-3">
                             <img src="images/casual/casual-1.png" class="w-75 card-img-top img-fluid m-3"
                                 alt="Casual-1">
@@ -100,7 +105,9 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$234</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3"><i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -118,7 +125,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$234</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -136,7 +146,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$234</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -144,7 +157,7 @@
         </section>
 
         <section class="formal-section pt-5">
-            <h1 class="section-title pb-4 pt-5">FORMAL SHOES</h1>
+            <h1 class="card-section-title pb-4 pt-5">FORMAL SHOES</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -157,7 +170,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$343</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -174,7 +190,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$343</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -191,7 +210,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$343</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
 
@@ -199,7 +221,7 @@
         </section>
 
         <section class="style-section pt-5">
-            <h1 class="pb-4 pt-5 section-title">WINTER SHOES</h1>
+            <h1 class="pb-4 pt-5 card-section-title">WINTER SHOES</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col ">
@@ -215,7 +237,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$350</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -233,7 +258,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$350</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -251,7 +279,10 @@
                         </div>
                         <div class="footer-card d-flex align-content-center justify-content-around">
                             <p class="card-price mt-2">$350</p>
-                            <button class="card-btn mb-3">BUY NOW</button>
+                            <button class="card-btn mb-3">
+                                <i class="fas fa-cart-plus buy-icon"></i>
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -261,14 +292,14 @@
     <!-- End Product Section -->
 
     <!-- Start Service Section -->
-    <section class="container pt-5">
-        <main class="service-section d-flex align-content-center justify-content-around pt-5">
+    <section id="about" class="container py-5">
+        <main class="service-section row pt-5">
 
             <!-- Service Outlines -->
-            <div class="service-outline w-75">
+            <div class="service-outline col-md-5 col-sm-12 pb-4">
                 <div class="single-outline d-flex align-content-center justify-content-around  rounded-3 shadow-sm">
                     <div class="outline-img">
-                        <img class="w-50" src="images/Icon/image 1.png" alt="outline-icon1">
+                        <img class="w-50 img-fluid" src="images/Icon/image 1.png" alt="outline-icon1">
                     </div>
                     <div class="outline-text">
                         <h5>Find The Perfect Fit</h5>
@@ -279,7 +310,7 @@
 
                 <div class="single-outline d-flex align-content-center justify-content-around mt-4 rounded-3 shadow-sm">
                     <div class="outline-img">
-                        <img class="w-50" src="images/Icon/image 2.png" alt="outline-icon2">
+                        <img class="w-50 img-fluid" src="images/Icon/image 2.png" alt="outline-icon2">
                     </div>
                     <div class="outline-text">
                         <h5>Free Exchanges</h5>
@@ -289,9 +320,9 @@
                 </div>
 
                 <div
-                    class="single-outline d-flex align-content-center justify-content-around mt-4 rounded-3  shadow-sm">
+                    class="single-outline d-flex align-content-center justify-content-around mt-4 pb-3 rounded-3  shadow-sm">
                     <div class="outline-img">
-                        <img class="w-50" src="images/Icon/image 3.png" alt="outline-icon3">
+                        <img class="w-50 img-fluid" src="images/Icon/image 3.png" alt="outline-icon3">
                     </div>
                     <div class="outline-text">
                         <h5>Contact Our Seller</h5>
@@ -302,71 +333,72 @@
             </div>
 
             <!-- XMLID Image -->
-            <div class="shopping-pic text-center">
-                <img class="w-75  img-fluid" src="images/Icon/XMLID 1.png" alt="XMLID">
+            <div class="text-center col-md-7 col-sm-12">
+                <img class="w-75 img-fluid" src="images/Icon/XMLID 1.png" alt="XMLID">
             </div>
         </main>
     </section>
     <!-- End Service Section -->
 
     <!-- Start Connected Section -->
-    <section class="mt-5 pt-3 pb-5 bg-light h-auto">
-        <main class="container  d-flex align-content-center justify-content-between">
-            <div class="">
-                <p class="connect-header">FOLLOW US</p>
+    <section id="contact" class="mt-5 pt-3 pb-5 connect-bg h-auto">
+        <main class="container">
 
-                <div>
-                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
-                        <i class="fab fa-facebook follow"></i>
-                    </a>
-                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
-                        <i class="fab fa-twitter follow "></i>
-                    </a>
-                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
-                        <i class="fab fa-linkedin follow"></i>
-                    </a>
-                    <a class="follow-icons text-decoration-none" href="#" target="_blank">
-                        <i class="fab fa-google-plus-square follow"></i>
-                    </a>
-                </div>
-
-            </div>
-            <div>
-                <p class="connect-header"> CONTACT US</p>
-
-                <div class="text-start">
-                    <a class="d-block text-decoration-none text-dark" href="#" target="_blank" >
-                        <i class="fas fa-envelope-open-text contacts-icon me-2 text-success fs-5">
-                        </i>
-                        info@panguinfashion.com
-                    </a>
-
-                    <a class="d-block pt-2 text-decoration-none text-dark" href="#" target="_blank" >
-                        <i class="fas fa-phone-volume contacts-icon me-2 text-success fs-5">
-                        </i>
-                        +800 768 324
-                    </a>
-
-                    <a class="d-block pt-2 text-decoration-none text-dark" href="#" target="_blank" ">
-                        <i class="fas fa-mobile contacts-icon me-2 text-success fs-5">
-                        </i>
-                        +08801718160232
-                    </a>
-                </div>
-            </div>
-
-            <div class="">
-                <p class="connect-header"> SING TO NEWSLETTER</p>
-                <form action="x" class="p-1">
-                    <input class=" bg-light shadow-sm form-control" type="text" placeholder="Name" name="" id="name">
-
-                    <input class=" d-block mt-2 bg-light shadow-sm form-control" type="email" placeholder="Email"
-                        name="" id="email">
-
-                    <div class="text-end mt-2">
-                        <input class="subscribe-btn" type="submit" value="SUBSCRIBE">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <p class="connect-header">FOLLOW US</p>
+                    <div>
+                        <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-twitter  "></i>
+                        </a>
+                        <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-linkedin "></i>
+                        </a>
+                        <a class="follow-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-google-plus "></i>
+                        </a>
                     </div>
-                </form>
+                </div>
+
+                <div class="col">
+                    <p class="connect-header"> CONTACT US</p>
+                    <div class="text-start ">
+                        <a class="d-block text-white text-decoration-none " href="#" target="_blank">
+                            <i class="fas fa-envelope-open-text contacts-icon me-2 text-secondary fs-4">
+                            </i>
+                            info@panguinfashion.com
+                        </a>
+
+                        <a class="d-block pt-2 text-white text-decoration-none " href="#" target="_blank">
+                            <i class="fas fa-phone-volume me-2  fs-4 text-secondary">
+                            </i>
+                            +800 768 324
+                        </a>
+
+                        <a class="d-block pt-2 text-decoration-none text-white " href="#" target="_blank">
+                            <i class="fas fa-mobile contacts-icon me-2 text-secondary fs-4">
+                            </i>
+                            +08801718160232
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <p class="connect-header"> SING TO NEWSLETTER</p>
+                    <form action="x" class="p-1">
+                        <input class=" bg-light shadow-sm form-control" type="text" placeholder="Name" name="name">
+
+                        <input class=" d-block mt-2 bg-light shadow-sm form-control" type="email" placeholder="Email"
+                            name="email">
+
+                        <div class="text-end pt-2">
+                            <input class="subscribe-btn" type="submit" value="SUBSCRIBE">
+                        </div>
+                    </form>
+                </div>
 
             </div>
         </main>
@@ -374,7 +406,7 @@
     <!-- End Connected Section -->
 
     <!-- Start Footer Section -->
-    <footer class="container pt-4 pb-3 text-center ">
+    <footer class="container pt-4 pb-3 text-center text-wrap">
         <p class="footer-text"> All Designed Build by
             <a class="text-decoration-none " href="#" target="_blank">
                 <i>
