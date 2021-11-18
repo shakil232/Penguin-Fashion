@@ -8,7 +8,12 @@
 _Web-Site Live Link_
 [click here](http://192.168.0.100:5500/index.html)
 
-_image_
-![Landing-Page](images/responsive/responsive.png)
+_All Device Responsive image_
+![Landing-Page](images/markdwon/penguin-fashion-responsive.png)
+
+---
+
+_full-screenshot image_
+![Landing-Page](images/markdwon/penguin-fashion-full-screenshot.png)
 
 ---
